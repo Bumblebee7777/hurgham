@@ -1,0 +1,22 @@
+$medidas:(
+    width: 100%,
+    height: 100%,
+);
+
+.ropam {
+    width:map-get($medidas , width ) ;
+    height:map-get($medidas , height ) ;
+}
+
+.accs {
+    width: map-get($medidas , width );
+    height: map-get($medidas , height );
+}
+.ropah {
+    width: map-get($medidas , width );
+    height:map-get($medidas, height ); 
+ }
+ .ropai {
+    width: map-get($medidas , width );
+    height: map-get($medidas , height );
+  }

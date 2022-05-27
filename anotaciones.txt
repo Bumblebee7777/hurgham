@@ -1,0 +1,29 @@
+SEO
+
+1-Puse las descripciones en todas las paginas y las keywords
+<meta name="description" content="Encontrá todas las marcas en Indumentaria Deportiva">
+ <meta name="keywords" content="ROPA, DEPORTES, ZAPATILLAS, SHORTS, REMERAS, INDUMENTARIA DEPORTIVA, RUNNING,  ">
+
+ SASS II
+
+2-Puse un MAP a las clases:
+Ropam
+Accs
+Ropai
+Ropah
+
+3-Agregue texto en el carrusel del index.
+
+4- Cambio en los textos de todas las card.
+
+5- Agregue background-color a todas las paginas.
+
+6- Hay en las enlaces en las imagenes del index.
+
+7-Cambio de color en el boton hamburguesa.
+
+8-Tamaño de imagenes en la paginas de zapatillas.
+
+
+
+

@@ -1,0 +1,86 @@
+@media screen and (max-width: 1023px) {
+    .nav {
+      display: none;
+      flex-direction: column;
+    }
+    .menu {
+      display: block;
+      text-decoration: none;
+      color: white;
+    }
+    .etiquetas {
+      flex-direction: column;
+    }
+    #lateral {
+      display: block;
+      width: 80%;
+      height: 100vh;
+      position: fixed;
+      top: 0%;
+      right: -100%;
+      z-index: 100;
+      transition: right 1s;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    #lateral:target {
+      right: 0%;
+    }
+    .zapasgrid {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      // align-items: center;
+      
+      padding: 5px;
+    }
+    .hombres {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .mujeres {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .accesorios {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .indu {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .container-fluid span {
+      color: white;
+    }
+  }
+  
+  @media screen  and (max-width: 600px) {
+    // #lateral {
+    //   display: block;
+    //   width: 80%;
+    //   height: 100vh;
+    //   position: fixed;
+    //   top: 0%;
+    //   right: -100%;
+    //   z-index: 100;
+    //   transition: right 1s;
+    //   background-color: rgba(0, 0, 0, 0.8);
+    // }
+    // #lateral:target {
+    //   right: 0%;
+    // }
+
+    .imagenes{
+      display: flex;
+      flex-direction: column;
+    }
+  }  
+  
