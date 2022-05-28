@@ -24,6 +24,10 @@ Ropah
 
 8-Tamaño de imagenes en la paginas de zapatillas.
 
+9- Estilizacion al boton Enviar.
+
+
+
 
 
 

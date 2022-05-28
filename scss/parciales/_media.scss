@@ -63,24 +63,37 @@
   }
   
   @media screen  and (max-width: 600px) {
-    // #lateral {
-    //   display: block;
-    //   width: 80%;
-    //   height: 100vh;
-    //   position: fixed;
-    //   top: 0%;
-    //   right: -100%;
-    //   z-index: 100;
-    //   transition: right 1s;
-    //   background-color: rgba(0, 0, 0, 0.8);
-    // }
-    // #lateral:target {
-    //   right: 0%;
-    // }
+    
 
     .imagenes{
       display: flex;
       flex-direction: column;
     }
-  }  
+    .contacto{
+      font-size:1rem;
+    }
+    .suscri{
+      font-size: 1rem;
+    }
+    .footer-sub2 textarea {
+      width:80%
+    }
+    // .footer-sub2 input{
+    //   width: 5rem
+    .text{
+      width: 10rem;
+      border-color: white;
+    }
+    .boton{
+      border-color: #198754;
+      display: flex;
+     margin-top: 3px;
+     background-color: transparent;
+     color: #198754;
+     padding-left: 1rem;
+     
+    }
+
+    }
+   
   
