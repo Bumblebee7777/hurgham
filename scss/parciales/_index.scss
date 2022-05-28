@@ -54,4 +54,34 @@
     align-self: center;
     border-radius: 5%;
   }
-  
+  .indexh{
+    position: relative;
+    z-index: 999;
+    top: -450px;
+    right: -60px;
+    display: block;
+    letter-spacing: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.5;
+    
+  }
+  .texth{
+    transform: rotate(-40deg);
+  }
+  .indexm{
+    color: white;
+    position: relative;
+    top: -440px;
+    right: -250px;
+    display: block;
+    letter-spacing: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.9;
+
+  }
+  .textm{
+    transform: rotate(-35deg);
+  }
+   
+    
+    

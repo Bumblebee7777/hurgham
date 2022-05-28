@@ -26,6 +26,8 @@ Ropah
 
 9- Estilizacion al boton Enviar.
 
+10-Texto en las imagenes del index.
+
 
 
 
