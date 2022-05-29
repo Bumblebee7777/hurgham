@@ -139,6 +139,11 @@ body {
   transform: rotate(-35deg);
 }
 
+.logotipo {
+  width: 60px;
+  height: 60px;
+}
+
 .body {
   width: 100%;
   background-color: #ded8d8;

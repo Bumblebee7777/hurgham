@@ -28,6 +28,8 @@ Ropah
 
 10-Texto en las imagenes del index.
 
+11-Colocacion de logo en el nav.
+
 
 
 
