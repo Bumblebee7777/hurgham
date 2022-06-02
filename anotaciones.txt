@@ -30,6 +30,10 @@ Ropah
 
 11-Colocacion de logo en el nav.
 
+12-Animaciones a las card.
+
+13-Ajuste del carrusel en el responsive.
+
 
 
 

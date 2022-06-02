@@ -31,15 +31,6 @@ body {
 
 .card-img-top {
   object-fit: contain;
-  transition: transform 1s;
-}
-
-.card-img-top:hover {
-  transform: scale(1.1);
-}
-
-.card {
-  width: 200px;
 }
 
 .header {
@@ -62,7 +53,7 @@ body {
 .imagenes {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   background-color: gainsboro;
   padding: 10px;
 }
@@ -73,6 +64,7 @@ body {
   grid-row-start: 1;
   grid-row-end: 1;
   padding: 10px;
+  position: relative;
 }
 
 .imagenes__img--2 {
@@ -81,6 +73,7 @@ body {
   grid-row-start: 1;
   grid-row-end: 1;
   padding: 10px;
+  position: relative;
 }
 
 .imagenes__img--3 {
@@ -110,33 +103,44 @@ body {
 }
 
 .indexh {
-  position: relative;
+  position: absolute;
   z-index: 999;
-  top: -450px;
-  right: -60px;
+  top: 100px;
+  right: 200px;
   display: block;
-  letter-spacing: 20px;
+  letter-spacing: 30px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  opacity: 0.5;
+  text-align: center;
+  font-size: 20px;
 }
 
 .texth {
-  transform: rotate(-40deg);
+  transform: rotate(-20deg);
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  opacity: 0.5;
 }
 
 .indexm {
   color: white;
-  position: relative;
-  top: -440px;
-  right: -250px;
+  position: absolute;
+  top: 230px;
+  right: 120px;
   display: block;
   letter-spacing: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  opacity: 0.9;
+  font-size: 20px;
 }
 
 .textm {
-  transform: rotate(-35deg);
+  transform: rotate(-20deg);
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  opacity: 0.5;
 }
 
 .logotipo {
@@ -156,38 +160,63 @@ body {
   grid-template-rows: repeat(2, 1fr);
 }
 
-.zapatilas__z1 {
+.zapatillas__z1 {
   grid-column: 1/2;
   grid-row: 1/2;
   padding: 5px;
   width: 100%;
   height: 100%;
+  transition: transform 1s;
 }
 
-.zapatilas__z2 {
+.zapatillas__z1:hover {
+  transform: scale(0.9);
+}
+
+.zapatillas__z2 {
   grid-column: 2/3;
   grid-row: 1/2;
   padding: 5px;
+  transition: transform 1s;
 }
 
-.zapatilas__z3 {
+.zapatillas__z2:hover {
+  transform: scale(0.9);
+}
+
+.zapatillas__z3 {
   grid-column: 2/3;
   grid-row: 2/3;
   padding: 5px;
+  transition: transform 1s;
 }
 
-.zapatilas__z4 {
+.zapatillas__z3:hover {
+  transform: scale(0.9);
+}
+
+.zapatillas__z4 {
   grid-column: 3/3;
   grid-row: 1/2;
   padding: 5px;
+  transition: transform 1s;
 }
 
-.zapatilas__z5 {
+.zapatillas__z4:hover {
+  transform: scale(0.9);
+}
+
+.zapatillas__z5 {
   grid-column: 1/2;
   grid-row: 2/2;
   padding: 5px;
   width: 100%;
   height: 100%;
+  transition: transform 1s;
+}
+
+.zapatillas__z5:hover {
+  transform: scale(0.9);
 }
 
 .body {
@@ -205,40 +234,59 @@ body {
 .hombres__1 {
   grid-column: 1/2;
   grid-row: 1/2;
-  padding: 5px;
+  padding: 10px;
   width: 100%;
+  transition: transform 1s;
+}
+
+.hombres__1:hover {
+  transform: scale(0.9);
 }
 
 .hombres__2 {
   grid-column: 2/3;
   grid-row: 1/2;
-  padding: 5px;
+  padding: 10px;
+  transition: transform 1s;
+}
+
+.hombres__2:hover {
+  transform: scale(0.9);
 }
 
 .hombres__3 {
   grid-column: 2/3;
   grid-row: 2/3;
-  padding: 5px;
+  padding: 10px;
+  transition: transform 1s;
+}
+
+.hombres__3:hover {
+  transform: scale(0.9);
 }
 
 .hombres__4 {
   grid-column: 3/3;
   grid-row: 1/2;
-  padding: 5px;
+  padding: 10px;
   width: 100%;
+  transition: transform 1s;
 }
 
-.hombres__5 {
-  grid-column: 1/2;
-  grid-row: 2/2;
-  padding: 5px;
+.hombres__4:hover {
+  transform: scale(0.9);
 }
 
 .hombres__6 {
   grid-column: 1/2;
   grid-row: 2/2;
-  padding: 5px;
+  padding: 10px;
   width: 100%;
+  transition: transform 1s;
+}
+
+.hombres__6:hover {
+  transform: scale(0.9);
 }
 
 .body {
@@ -261,44 +309,79 @@ body {
 .indu__1 {
   grid-column: 1/2;
   grid-row: 1/2;
-  padding: 5px;
+  padding: 10px;
+  transition: transform 1s;
+}
+
+.indu__1:hover {
+  transform: scale(0.9);
 }
 
 .indu__2 {
   grid-column: 2/3;
   grid-row: 1/2;
-  padding: 5px;
+  padding: 10px;
+  transition: transform 1s;
+}
+
+.indu__2:hover {
+  transform: scale(0.9);
 }
 
 .indu__3 {
   grid-column: 3/4;
   grid-row: 1/2;
-  padding: 5px;
+  padding: 10px;
+  transition: transform 1s;
+}
+
+.indu__3:hover {
+  transform: scale(0.9);
 }
 
 .indu__4 {
   grid-column: 1/2;
   grid-row: 2/3;
-  padding: 5px;
+  padding: 10px;
+  transition: transform 1s;
+}
+
+.indu__4:hover {
+  transform: scale(0.9);
 }
 
 .indu__5 {
   grid-column: 2/3;
   grid-row: 2/3;
-  padding: 5px;
+  padding: 10px;
+  transition: transform 1s;
+}
+
+.indu__5:hover {
+  transform: scale(0.9);
 }
 
 .indu__6 {
   grid-column: 3/4;
   grid-row: 2/3;
-  padding: 5px;
+  padding: 10px;
   width: 100%;
+  transition: transform 1s;
+}
+
+.indu__6:hover {
+  transform: scale(0.9);
 }
 
 .indu__7 {
   grid-column: 1/2;
   grid-row: 3/4;
-  padding: 5px;
+  padding: 10px;
+  transition: transform 1s;
+}
+
+.indu__7:hover {
+  transform: scale(0.9);
 }
 
 .body {
@@ -321,40 +404,70 @@ body {
 .mujeres__1 {
   grid-column: 1/2;
   grid-row: 1/2;
-  padding: 5px;
+  padding: 10px;
+  transition: transform 1s;
+}
+
+.mujeres__1:hover {
+  transform: scale(0.9);
 }
 
 .mujeres__2 {
   grid-column: 2/3;
   grid-row: 1/2;
-  padding: 5px;
+  padding: 10px;
+  transition: transform 1s;
+}
+
+.mujeres__2:hover {
+  transform: scale(0.9);
 }
 
 .mujeres__3 {
   grid-column: 2/3;
   grid-row: 2/3;
-  padding: 5px;
+  padding: 10px;
+  transition: transform 1s;
+}
+
+.mujeres__3:hover {
+  transform: scale(0.9);
 }
 
 .mujeres__4 {
   grid-column: 3/3;
   grid-row: 1/2;
-  padding: 5px;
+  padding: 10px;
   width: 100%;
+  transition: transform 1s;
+}
+
+.mujeres__4:hover {
+  transform: scale(0.9);
 }
 
 .mujeres__5 {
   grid-column: 1/2;
   grid-row: 2/2;
-  padding: 5px;
+  padding: 10px;
   width: 100%;
+  transition: transform 1s;
+}
+
+.mujeres__5:hover {
+  transform: scale(0.9);
 }
 
 .mujeres__6 {
   grid-column: 3/3;
   grid-row: 2/3;
-  padding: 5px;
+  padding: 10px;
   width: 100%;
+  transition: transform 1s;
+}
+
+.mujeres__6:hover {
+  transform: scale(0.9);
 }
 
 .body {
@@ -383,31 +496,56 @@ body {
 .accesorios__1 {
   grid-column: 1/2;
   grid-row: 1/2;
-  padding: 5px;
+  padding: 10px;
+  transition: transform 1s;
+}
+
+.accesorios__1:hover {
+  transform: scale(0.9);
 }
 
 .accesorios__2 {
   grid-column: 2/3;
   grid-row: 1/2;
-  padding: 5px;
+  padding: 10px;
+  transition: transform 1s;
+}
+
+.accesorios__2:hover {
+  transform: scale(0.9);
 }
 
 .accesorios__3 {
   grid-column: 2/3;
   grid-row: 2/3;
-  padding: 5px;
+  padding: 10px;
+  transition: transform 1s;
+}
+
+.accesorios__3:hover {
+  transform: scale(0.9);
 }
 
 .accesorios__4 {
   grid-column: 3/3;
   grid-row: 1/2;
-  padding: 5px;
+  padding: 10px;
+  transition: transform 1s;
+}
+
+.accesorios__4:hover {
+  transform: scale(0.9);
 }
 
 .accesorios__5 {
   grid-column: 1/2;
   grid-row: 2/2;
-  padding: 5px;
+  padding: 10px;
+  transition: transform 1s;
+}
+
+.accesorios__5:hover {
+  transform: scale(0.9);
 }
 
 .accesorios__1 div img {
@@ -457,6 +595,7 @@ div a {
   border-radius: 5px;
   height: 2rem;
   width: 5rem;
+  margin-left: 5px;
 }
 
 .boton:hover {
@@ -465,12 +604,17 @@ div a {
   transition: color .15s;
 }
 
-.suscri {
-  font-size: 1.5rem;
+.jam-twitter {
+  font-size: 2rem;
 }
 
-.contacto {
-  font-size: 1.5rem;
+.jam-instagram {
+  font-size: 2rem;
+  padding-right: 10px;
+}
+
+.jam-whatsapp {
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 1023px) {
@@ -485,20 +629,6 @@ div a {
   }
   .etiquetas {
     flex-direction: column;
-  }
-  #lateral {
-    display: block;
-    width: 80%;
-    height: 100vh;
-    position: fixed;
-    top: 0%;
-    right: -100%;
-    z-index: 100;
-    transition: right 1s;
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  #lateral:target {
-    right: 0%;
   }
   .zapasgrid {
     display: flex;
@@ -533,6 +663,9 @@ div a {
   .container-fluid span {
     color: white;
   }
+  .navbar-toggler {
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -560,11 +693,12 @@ div a {
     background-color: transparent;
     color: #198754;
     padding-left: 1rem;
+    margin-left: 0;
   }
   .indexh {
     position: relative;
     z-index: 999;
-    top: -150px;
+    top: -140px;
     right: -20px;
     display: block;
     letter-spacing: 10px;
@@ -589,6 +723,25 @@ div a {
   .textm {
     transform: rotate(-35deg);
     width: fit-content;
+  }
+  .jam-twitter {
+    font-size: 1rem;
+  }
+  .jam-instagram {
+    font-size: 1rem;
+  }
+  .jam-whatsapp {
+    font-size: 1rem;
+  }
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 200px;
+    align-self: center;
+  }
+  .carousel-inner img {
+    height: 200px;
   }
 }
 /*# sourceMappingURL=style.css.map */

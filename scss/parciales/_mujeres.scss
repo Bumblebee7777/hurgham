@@ -18,38 +18,62 @@
   .mujeres__1 {
     grid-column: 1/2;
     grid-row: 1/2;
-    padding: 5px;
+    padding: 10px;
+    transition: transform 1s;
+  }
+  .mujeres__1:hover{
+    transform: scale(0.9);
   }
   
   .mujeres__2 {
     grid-column: 2/3;
     grid-row: 1/2;
-    padding: 5px;
+    padding: 10px;
+    transition: transform 1s;
+  }
+  .mujeres__2:hover{
+    transform: scale(0.9);
   }
   
   .mujeres__3 {
     grid-column: 2/3;
     grid-row: 2/3;
-    padding: 5px;
+    padding: 10px;
+    transition: transform 1s;
+  }
+  .mujeres__3:hover{
+    transform: scale(0.9);
   }
   
   .mujeres__4 {
     grid-column: 3/3;
     grid-row: 1/2;
-    padding: 5px;
+    padding: 10px;
     width: 100%;
+    transition: transform 1s;
+  }
+  .mujeres__4:hover{
+    transform: scale(0.9);
   }
   
   .mujeres__5 {
     grid-column: 1/2;
     grid-row: 2/2;
-    padding: 5px;
+    padding: 10px;
     width: 100%;
+    transition: transform 1s;
+  }
+  .mujeres__5:hover{
+    transform: scale(0.9);
   }
   
   .mujeres__6 {
     grid-column: 3/3;
     grid-row: 2/3;
-    padding: 5px;
+    padding: 10px;
     width: 100%;
+    transition: transform 1s;
+  }
+  .mujeres__6:hover{
+    transform: scale(0.9);
   }
