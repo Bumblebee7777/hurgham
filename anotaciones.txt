@@ -34,6 +34,15 @@ Ropah
 
 13-Ajuste del carrusel en el responsive.
 
+14-Pagina de contacto.
+
+15-Pagina de Preguntas Frecuentes.
+
+16-Pagina de Inicio de Sesion.
+
+17-Pagina de Registrarse.
+
+
 
 
 

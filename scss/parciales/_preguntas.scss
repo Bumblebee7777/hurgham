@@ -1,0 +1,63 @@
+.preguntas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    height: 100vh;
+}
+.envios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:solid 2px;
+    height: 260px;
+    max-width: 350px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.caja{
+    align-items: center;
+}
+.tenvios{
+   
+    text-align: center;
+}
+.devoluciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px;
+    height: 260px;
+    max-width: 350px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.tdevoluciones{
+    text-align: center;
+}
+.thorarios{
+    text-align: center;
+}
+.horarios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px;
+    height: 260px;
+    max-width: 350px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+    
+}
+.titulo h1{
+    padding-top: 3rem;
+    text-align: center;
+
+}

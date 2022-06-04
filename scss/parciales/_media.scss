@@ -131,10 +131,46 @@
       overflow: hidden;
       height: 200px;
       align-self: center;
-  }
+    }
      .carousel-inner img{
        height: 200px;
-     }
+    }
+    .pagcontacto{
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .jam-inbox{
+      font-size: 20px !important;
+    }
+    .jam-phone{
+      font-size: 20px !important;
+    }
+    .instat{
+      font-size: 20px !important;
+    }
+    .ubicacion{
+      font-size: 1rem;
+     
+    }
+    .mapa{
+      width: 300px;
+      padding: 10px !important;
+    }
+    .twit{
+      font-size: 20px;
+    }
+    .preguntas{
+      flex-direction: column;
+    }
+    .fini{
+      padding: 2rem !important;
+      margin: 23px !important;
+    }
+    .forg{
+      padding: 10px !important;
+    }
+
 
     }
    
